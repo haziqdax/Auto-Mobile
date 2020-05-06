@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add Vehicle</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content fullscreen>
+
+  <ion-item>
+
+    <ion-label>Brand</ion-label>
+    <ion-select ok-text="Okay" cancel-text="Cancel">
+      <ion-select-option value="Honda">Honda</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+<ion-item>
+    <ion-label>Model</ion-label>
+    <ion-select ok-text="Okay" cancel-text="Cancel">
+      <ion-select-option value="City">City</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Year</ion-label>
+    <ion-select value="2020">
+      <ion-select-option value="2000">2000</ion-select-option>
+      <ion-select-option value="2001">2001</ion-select-option>
+      <ion-select-option value="2002">2002</ion-select-option>
+      <ion-select-option value="2003">2003</ion-select-option>
+      <ion-select-option value="2004">2004</ion-select-option>
+      <ion-select-option value="2005">2005</ion-select-option>
+      <ion-select-option value="2006">2006</ion-select-option>
+      <ion-select-option value="2007">2007</ion-select-option>
+      <ion-select-option value="2008">2008</ion-select-option>
+      <ion-select-option value="2009">2009</ion-select-option>
+      <ion-select-option value="2010">2010</ion-select-option>
+      <ion-select-option value="2011">2011</ion-select-option>
+      <ion-select-option value="2012">2012</ion-select-option>
+      <ion-select-option value="2013">2013</ion-select-option>
+      <ion-select-option value="2014">2014</ion-select-option>
+      <ion-select-option value="2015">2015</ion-select-option>
+      <ion-select-option value="2016">2016</ion-select-option>
+      <ion-select-option value="2017">2017</ion-select-option>
+      <ion-select-option value="2018">2018</ion-select-option>
+      <ion-select-option value="2019">2019</ion-select-option>
+      <ion-select-option value="2020">2020</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Odometer</ion-label>
+    <ion-input placeholder="5,000KM"></ion-input>
+  
+    
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Plate</ion-label>
+    <ion-input placeholder=""></ion-input>
+  </ion-item>
+
+  <div class="ion-padding">
+    <ion-button expand="block" type="submit" class="ion-no-margin">Save</ion-button>
+  </div>
+
+  
+</ion-content>
+
+<ion-footer (click)="logout()">
+  <ion-toolbar color="secondary">
+    <ion-title>Log out</ion-title>
+  </ion-toolbar>
+</ion-footer>
+
